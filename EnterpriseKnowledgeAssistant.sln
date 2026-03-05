@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseKnowledgeAssistant.Api", "src\EnterpriseKnowledgeAssistant.Api\EnterpriseKnowledgeAssistant.Api.csproj", "{12109149-FCC9-4A1E-B100-B98DF61420C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseKnowledgeAssistant.Application", "src\EnterpriseKnowledgeAssistant.Application\EnterpriseKnowledgeAssistant.Application.csproj", "{61216BB2-2349-4EB6-A1DE-DC8B0B875B4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseKnowledgeAssistant.Domain", "src\EnterpriseKnowledgeAssistant.Domain\EnterpriseKnowledgeAssistant.Domain.csproj", "{D5FF7717-31DD-462A-909B-7AED74E9353B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseKnowledgeAssistant.Infrastructure", "src\EnterpriseKnowledgeAssistant.Infrastructure\EnterpriseKnowledgeAssistant.Infrastructure.csproj", "{D2351D25-B130-4042-AA98-BE9DC3D23DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{AD52266A-CCA7-4C98-B651-BA06C2F81EFC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12109149-FCC9-4A1E-B100-B98DF61420C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12109149-FCC9-4A1E-B100-B98DF61420C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12109149-FCC9-4A1E-B100-B98DF61420C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12109149-FCC9-4A1E-B100-B98DF61420C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61216BB2-2349-4EB6-A1DE-DC8B0B875B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61216BB2-2349-4EB6-A1DE-DC8B0B875B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61216BB2-2349-4EB6-A1DE-DC8B0B875B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61216BB2-2349-4EB6-A1DE-DC8B0B875B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FF7717-31DD-462A-909B-7AED74E9353B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FF7717-31DD-462A-909B-7AED74E9353B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FF7717-31DD-462A-909B-7AED74E9353B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FF7717-31DD-462A-909B-7AED74E9353B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2351D25-B130-4042-AA98-BE9DC3D23DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2351D25-B130-4042-AA98-BE9DC3D23DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2351D25-B130-4042-AA98-BE9DC3D23DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2351D25-B130-4042-AA98-BE9DC3D23DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D046626F-B309-4690-B3E9-C75055A86BAB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google_GenerativeAI" Version="3.6.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
+    <PackageReference Include="OpenAI" Version="2.8.0" />
+    <PackageReference Include="Pgvector.EntityFrameworkCore" Version="0.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EnterpriseKnowledgeAssistant.Application\EnterpriseKnowledgeAssistant.Application.csproj" />
+    <ProjectReference Include="..\EnterpriseKnowledgeAssistant.Domain\EnterpriseKnowledgeAssistant.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

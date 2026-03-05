@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EnterpriseKnowledgeAssistant.Application.DTOs
+{
+    public class OllamaEmbeddingResponse
+    {
+        public required float[] Embeddings { get; set; }
+    }
+
+}

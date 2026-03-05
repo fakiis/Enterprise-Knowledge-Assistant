@@ -416,3 +416,8 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Secret files Do not commit
+bin/
+obj/
+appsettings.Development.json
